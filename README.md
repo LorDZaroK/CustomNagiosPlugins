@@ -9,7 +9,6 @@ Usage:
 
 Nagios command definition:
 
-# TELDAT COVERAGE
 define command{
         command_name    check_teldat_coverage
         command_line    $USER1$/check_teldat_coverage.py -H $HOSTADDRESS$ -i $ARG1$ -C $ARG2$ -l $ARG3$
